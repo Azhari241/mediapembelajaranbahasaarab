@@ -1,0 +1,16 @@
+{
+  "name": "arabiya-edu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ARABIYA EDU — Laboratorium Bahasa Arab Digital SMA GUPPI Samata",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-config.mjs",
+    "dev": "node scripts/build-config.mjs && npx --yes serve@14.2.4 -l 3000 .",
+    "test": "node tests/run-tests.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17"
+  },
+  "engines": { "node": ">=18" }
+}

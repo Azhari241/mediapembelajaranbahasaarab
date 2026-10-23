@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ARABIYA EDU — Laboratorium Bahasa Arab Digital</title>
+<meta name="description" content="ARABIYA EDU — Laboratorium Bahasa Arab Digital SMA GUPPI Samata. Belajar Bahasa Arab dengan Mudah, Menyenangkan, dan Bermakna.">
+<meta name="theme-color" content="#1f4d35">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a href="#view" class="sr-only">Lompat ke konten</a>
+<div class="app">
+  <aside class="sidebar" id="sidebar" aria-label="Navigasi utama">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">ع</span><span><span class="brand-name">ARABIYA EDU</span><br><span class="brand-sub">Laboratorium Bahasa Arab Digital</span></span></a>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot">SMA GUPPI Samata<br>Yayasan Pendidikan Pesantren Modern Cendekia Puruhita GUPPI Samata, Gowa</div>
+  </aside>
+  <div class="drawer-backdrop" data-action="close-drawer"></div>
+  <div class="main">
+    <header class="topbar">
+      <button class="btn btn-icon btn-ghost menu-btn" id="menu-btn" aria-label="Buka menu" aria-controls="sidebar"></button>
+      <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true" style="width:34px;height:34px;font-size:21px">ع</span><span class="brand-name" style="color:var(--green-900)">ARABIYA EDU</span></a>
+      <div class="topbar-title"></div><div class="spacer"></div>
+      <span class="conn-pill off" id="conn-pill" role="status">Memeriksa…</span>
+    </header>
+    <main class="content" id="view" tabindex="-1"></main>
+    <footer class="footer">ARABIYA EDU · Laboratorium Bahasa Arab Digital · SMA GUPPI Samata, Gowa. Bukan aplikasi resmi sekolah sebelum ada persetujuan resmi. · <a href="#/privasi">Kebijakan privasi</a></footer>
+  </div>
+</div>
+<nav class="bottom-nav" aria-label="Navigasi ringkas" id="bottom-nav"></nav>
+<noscript><p style="padding:20px">ARABIYA EDU memerlukan JavaScript.</p></noscript>
+
+<!-- Konfigurasi produksi (kunci publik saja) -->
+<script src="config.js"></script>
+<!-- Pustaka pihak ketiga (disimpan lokal, versi terkunci): supabase-js 2.45.4, lucide 0.454.0 -->
+<script src="assets/vendor/supabase.min.js"></script>
+<script src="assets/vendor/lucide.min.js"></script>
+<!-- Aplikasi -->
+<script src="js/core.js"></script>
+<script src="js/content-vocab.js"></script>
+<script src="js/content-lessons.js"></script>
+<script src="js/content-grammar.js"></script>
+<script src="js/content-quizzes.js"></script>
+<script src="js/data.js"></script>
+<script src="js/quiz-engine.js"></script>
+<script src="js/pages-learn.js"></script>
+<script src="js/pages-practice.js"></script>
+<script src="js/pages-games.js"></script>
+<script src="js/pages-quiz.js"></script>
+<script src="js/admin-settings.js"></script>
+<script src="js/admin-content.js"></script>
+<script src="js/admin-quiz.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
